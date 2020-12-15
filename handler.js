@@ -3,11 +3,10 @@
 module.exports.hello = async event => {
   return {
     statusCode: 200,
-    body: JSON.stringify(
-      {
+    body: JSON.stringify({
         message: 'Serverless request',
         // input: event,
-      },
+    },
       null,
       2
     ),

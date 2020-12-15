@@ -5,9 +5,20 @@ provider:
   name: aws
   runtime: nodejs12.x
   stage: dev
-  #retira um erro de deprecation
+  #remove error of deprecation
   apiGateway:
     shouldStartNameWithService: true
+  #permissions
+  iamRoleStatements:
+    - Effect: "Allow"
+      Action:
+        - "dynamodb:*"
+      Resource: "*"
+
+    - Effect: Allow
+      Action:
+        - lambda:InvokeFunction
+      Resource: "*"
 
 functions:
 
@@ -17,6 +28,13 @@ functions:
       - http:
           path: list
           method: get
+
+  create:
+    handler: create.handler
+    events:
+      - http:
+          path: create
+          method: put
 
 custom:
   # stage = provider.stage = dev
