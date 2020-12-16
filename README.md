@@ -3,7 +3,8 @@
  - Serverless
  - DynamoDB
 
-#Rodando a aplicação
+# Rodando a aplicação
+
 na pasta do projeto,
 bash```yarn```
 Instalada as dependências, rodamos dois comandos, cada um em um terminal diferente.
@@ -11,7 +12,6 @@ Instalada as dependências, rodamos dois comandos, cada um em um terminal difere
 bash```sls offline```
 e
 bash```sls dynamodb start```
-
 
 # Referências
 
