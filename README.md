@@ -8,14 +8,19 @@
 
 Na pasta do projeto, rode no terminal:
 
-sh´´´yarn´´´
+sh```
+yarn
+```
+
 Instalada as dependências, rodamos dois comandos, cada um em um terminal diferente.
 
-sh´´´sls offline´´´
-
+sh```
+sls offline
+```
 e
-
-sh´´´sls dynamodb start´´´
+sh```
+sls dynamodb start
+```
 
 # Referências
 
