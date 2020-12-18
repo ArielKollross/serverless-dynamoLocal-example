@@ -8,20 +8,18 @@
 
 Na pasta do projeto, rode no terminal:
 
-sh```
+```bash
 yarn
 ```
 
 Instalada as dependências, rodamos dois comandos, cada um em um terminal diferente.
-
-sh```
+```bash
 sls offline
 ```
 e
-sh```
+```bash
 sls dynamodb start
 ```
-
 # Referências
 
 https://github.com/99x/serverless-dynamodb-local#readme
