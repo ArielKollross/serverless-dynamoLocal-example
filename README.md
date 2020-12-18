@@ -1,17 +1,21 @@
 # Tecnologias
  - Node
- - Serverless
- - DynamoDB
+ - Serverless Framework
+ - AWS Lambda
+ - AWS DynamoDB
 
 # Rodando a aplicação
 
-na pasta do projeto,
-bash```yarn```
+Na pasta do projeto, rode no terminal:
+
+sh```yarn```
 Instalada as dependências, rodamos dois comandos, cada um em um terminal diferente.
 
-bash```sls offline```
+sh```sls offline```
+
 e
-bash```sls dynamodb start```
+
+sh```sls dynamodb start```
 
 # Referências
 
